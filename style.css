@@ -1,0 +1,24 @@
+:root{
+    --bgwhite:#ffffff;
+    --bgdark1: #212931;
+    --bgdark2: #1e252d;
+    --bggrey: #eeeeee;
+
+    --tx1: #212931;
+    --tx2: #ffffff;
+    --tx3: #909498;
+    --tx4: #717981;
+    --tx5: #000000;
+    --tx6: #1e252d;
+    --tx7: #eeeeee;
+
+    --hed1-size: 80px;
+    --hed1-height: 80px;
+    --hed2-size: 64px;
+    --hed2-height: 70.4px;
+    --hed3-size: 12.8px;
+    --hed3-height: 19.2px;
+    --hed4-size: 16px;
+    --hed4-height: 38px;
+
+}
