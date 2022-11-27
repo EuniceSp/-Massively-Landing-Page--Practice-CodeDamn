@@ -1,4 +1,5 @@
 :root{
+
     --bgwhite:#ffffff;
     --bgdark1: #212931;
     --bgdark2: #1e252d;
@@ -21,4 +22,16 @@
     --hed4-size: 16px;
     --hed4-height: 38px;
 
+}
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    font-family: Merriweather, Georgia, serif;
+    font-size: var(--hed4-size);
+    color: var(--tx1);
+   /** background-image: url(assets/images/bg.jpg);**/
 }
