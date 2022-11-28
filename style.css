@@ -27,11 +27,50 @@
 *{
     box-sizing: border-box;
     max-width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 body{
     font-family: Merriweather, Georgia, serif;
     font-size: var(--hed4-size);
     color: var(--tx1);
-   /** background-image: url(assets/images/bg.jpg);**/
+    background-image: linear-gradient(to bottom,rgba(33, 41, 49, 0.7),  rgba(33, 41, 49, 0.7)), url(assets/images/bg.jpg);
+    background-size: 100vw 220vh;
+    background-repeat: no-repeat;
+    background-color: var(--bgdark1);
+    color: #ffffff;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    color: var(--tx2);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.header-content{
+    margin-top: 30vh;
+    text-align: center;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title{
+    font-size: var(--hed1-size);
+    margin-bottom: 20px;
+}
+
+.header-description{
+    font-size:16.5px;
+}
+
+.header-img{
+    margin-top: 50px;
+    width: 85px;
+    height: 85px;
 }
