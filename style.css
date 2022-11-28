@@ -36,21 +36,20 @@ body{
     font-size: var(--hed4-size);
     color: var(--tx1);
     background-image: linear-gradient(to bottom,rgba(33, 41, 49, 0.7),  rgba(33, 41, 49, 0.7)), url(assets/images/bg.jpg);
-    background-size: 100vw 220vh;
+    background-size: 100vw 250vh;
     background-repeat: no-repeat;
     background-color: var(--bgdark1);
-    color: #ffffff;
 }
 
 header{
     width: 100vw;
-    height: 100vh;
+    height: 65vh;
     color: var(--tx2);
     font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 .header-content{
-    margin-top: 30vh;
+    margin-top: 45vh;
     text-align: center;
     padding-left: 25vw;
     padding-right: 25vw;
@@ -70,7 +69,13 @@ header{
 }
 
 .header-img{
-    margin-top: 50px;
+    margin-top: 30px;
     width: 85px;
     height: 85px;
+}
+
+main{
+    background-color: var(--bgwhite);
+    margin-left: 12vw;
+    margin-right: 12vw;
 }
