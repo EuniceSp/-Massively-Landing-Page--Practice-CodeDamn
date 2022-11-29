@@ -204,3 +204,79 @@ main{
     font-weight: 900;
     background-color: #ffffff;
 }
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 650px 650px 650px;
+    grid-template-areas: 
+    "card1 card2"
+    "card3 card4"
+    "card5 card6";
+}
+
+.card1{
+    grid-area: card1;
+}
+
+.card2{
+    grid-area: card2;
+}
+
+.card3{
+    grid-area: card3;
+}
+
+.card4{
+    grid-area: card4;
+}
+
+.card5{
+    grid-area: card5;
+}
+
+.card6{
+    grid-area: card6;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:1px solid var(--bggrey);
+}
+
+.card-date{
+    font-size: var(--hed3-size);
+    color: var(--tx4);
+    margin-bottom: 18px;
+}
+
+.card-title{
+    font-family:"Source Sans Pro", Helvetica, sans-serif ;
+    font-size: var(--hed3-height);
+    font-weight: 900;
+}
+
+#card img{
+    width: 80%;
+    margin-bottom: 22px;
+}
+
+.card-description{
+    width: 80%;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+.card-btn{
+    width: 30%;
+    height: 40px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    background-color: #ffffff;
+}
