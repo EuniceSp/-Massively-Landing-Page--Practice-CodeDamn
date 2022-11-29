@@ -454,3 +454,43 @@ main{
     border: 2px solid #5a5f64;
     margin-top: 8px;
 }
+
+footer{
+    width: 100%;
+    height: 150px;
+}
+
+.text-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--hed3-size);
+    padding: 40px;
+    color: #6e757c;
+    font-weight: 900;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.footer-1{
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-2{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #6e757c;
+    border-right: 1px solid #6e757c;
+}
+
+.footer-3{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
