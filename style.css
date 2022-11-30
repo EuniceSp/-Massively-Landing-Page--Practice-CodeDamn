@@ -190,6 +190,9 @@ main{
     text-align: center;
     margin-bottom: 55px;
     color: var(--tx1);
+    padding-left: 300px;
+    padding-right: 300px;
+    line-height: 30px;
 }
 
 .head img{
