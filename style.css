@@ -510,7 +510,7 @@ footer{
     }
 
     header{
-        height: 70vh;
+        height: 400px;
     }
 
     .header-content{
@@ -571,6 +571,8 @@ footer{
         width: 80%;
         margin-bottom: 30px;
         line-height: 30px;
+        padding-left: 0;
+        padding-right: 0;
     }
     
     .head img{
