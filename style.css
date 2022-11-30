@@ -258,6 +258,9 @@ main{
     font-family:"Source Sans Pro", Helvetica, sans-serif ;
     font-size: var(--hed3-height);
     font-weight: 900;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 30px;
 }
 
 #card img{
@@ -493,4 +496,155 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 480px){
+
+
+    body{
+        background-size: 380vw 400vh;
+        background-position: top center; 
+    }
+
+    header{
+        height: 70vh;
+    }
+
+    .header-content{
+        margin-top: 112vh;
+        padding: 0;
+    }
+
+    .header-title{
+        width: 100%;
+        font-size: var(--hed2-size);
+        padding: 20px;
+        margin-bottom: 0;
+    }
+    
+    .header-description{
+        font-size:16.5px;
+        padding: 15px;
+        line-height: 35px;
+    }
+
+    .header-img{
+        display: none;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    main{
+        margin:0;
+    }
+
+    .date{
+        height: 100px;
+    }
+    
+    .date-d{
+        width: 40%;
+    }
+    
+    .line{
+        width: 20%;
+    }
+
+    .head{
+        margin-bottom: 0;
+    }
+    
+    .head h1{
+        font-size: var(--hed4-height);
+        padding-left: 60px;
+        padding-right: 60px;
+        font-weight: 900;
+    }
+    
+    .head em{
+        font-size: 16px;
+        width: 80%;
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+    
+    .head img{
+        margin-bottom: 35px;
+    }
+    
+    #btn-head{
+        width: 80%;
+        margin-bottom: 70px;
+    }
+
+    .cards-grid{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6, 600px);
+        grid-template-areas: 
+        "card1" 
+        "card2"
+        "card3" 
+        "card4"
+        "card5" 
+        "card6";
+    }
+
+    .card-date{
+        margin-bottom: 20px;
+    }
+    
+    .card-description{
+        margin-bottom: 22px;
+    }
+    
+    .card-btn{
+        width: 80%;
+    }
+
+    .number{
+        display: none;
+    }
+
+    .foot{
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 500px 150px 100px 100px 150px;
+        grid-template-areas: 
+        "form" 
+        "address"
+        "phone"
+        "email"
+        "social";
+    }
+
+    .address{
+        border-top: 2px solid #d8d0d0;;
+    }
+
+    .form-btn{
+        width: 90%;
+    }
+
+    footer{
+        height: 300px;
+    }
+    
+    .text-footer{
+        flex-direction: column;
+    }
+    
+    .footer-1{
+        margin-top: 60px;
+        margin-bottom: 15px;
+    }
+    
+    .footer-2{
+        border-left: none;
+        border-right: none;
+        margin-bottom: 15px;
+    }
+
 }
